@@ -75,6 +75,9 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; Projectile configuration
+(setq projectile-project-search-path '("~/Documents/projects" "~/Documents/github/"))
+
 ;; Workaround for https://github.com/doomemacs/doomemacs/issues/7532
 (add-hook 'doom-after-init-hook (lambda () (tool-bar-mode 1) (tool-bar-mode 0)))
 
